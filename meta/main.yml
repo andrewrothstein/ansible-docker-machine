@@ -1,0 +1,11 @@
+---
+dependencies:
+  - {
+  role: 'github-release',
+  github_ver : 'v0.4.1',
+  github_user : 'docker',
+  github_project : 'machine',
+  github_binary : 'docker-machine_linux-amd64',
+  github_app : 'docker-machine'
+  }
+  
