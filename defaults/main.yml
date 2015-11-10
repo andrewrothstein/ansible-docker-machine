@@ -1,0 +1,10 @@
+---
+dockermachine_ver : 'v0.5.0'
+dockermachine_user : 'docker'
+dockermachine_project : 'machine'
+dockermachine_platform : 'linux-amd64'
+dockermachine_zip : 'docker-machine_{{dockermachine_platform}}.zip'
+
+dockermachine_install_dir : '/opt/docker-machine-{{dockermachine_ver}}'
+
+  

@@ -21,12 +21,4 @@ galaxy_info:
     - development
 
 dependencies:
-  - {
-  role: 'andrewrothstein.github-release',
-  github_ver : 'v0.5.0',
-  github_user : 'docker',
-  github_project : 'machine',
-  github_binary : 'docker-machine_linux-amd64',
-  github_app : 'docker-machine'
-  }
-  
+  - andrewrothstein.unarchive-deps
