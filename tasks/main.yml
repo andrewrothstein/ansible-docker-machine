@@ -17,7 +17,7 @@
   file: src='{{dockermachine_install_dir}}' dest='/opt/docker-machine' state=link
 
 - name: add docker-machine to the path
-  file: >
+  copy: >
     src=etc/profile.d/docker-machine.sh
     dest=/etc/profile.d/docker-machine.sh
     mode=644
