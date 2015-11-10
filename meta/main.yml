@@ -22,7 +22,7 @@ galaxy_info:
 
 dependencies:
   - {
-  role: 'github-release',
+  role: 'andrewrothstein.github-release',
   github_ver : 'v0.4.1',
   github_user : 'docker',
   github_project : 'machine',
