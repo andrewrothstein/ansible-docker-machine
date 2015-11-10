@@ -1,4 +1,25 @@
 ---
+galaxy_info:
+  author: Andrew Rothstein
+  description: installs docker-machine from github
+  company: BlackRock
+  license:
+    - MIT
+  min_ansible_version: 1.2
+  platforms:
+    - name: EL
+      versions:
+        - 7
+    - name: Fedora
+      versions:
+        - 21
+    - name: Ubuntu
+      versions:
+        - trusty
+
+  categories:
+    - development
+
 dependencies:
   - {
   role: 'github-release',
