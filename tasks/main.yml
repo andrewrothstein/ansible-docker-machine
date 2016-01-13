@@ -1,8 +1,5 @@
 ---
-- name: download docker-machine zip
-  get_url: url={{dockermachine_zip_url}} dest=/tmp/{{dockermachine_zip}}
-
-- name: create /opt/docker-machine/vXXXX
+- name: create /opt/docker-machine-v0.5.6
   file: >
     owner=root
     group=root
@@ -10,11 +7,21 @@
     path={{dockermachine_install_dir}}
     state=directory
   
-- name: unachive docker-machine
-  unarchive: copy=no src='/tmp/{{dockermachine_zip}}' dest='{{dockermachine_install_dir}}'
+- name: download docker-machine exe
+  get_url: >
+    url={{dockermachine_exe_url}}
+    dest={{dockermachine_install_dir}}/docker-machine
+    owner=root
+    group=root
+    mode=0755
 
 - name: link /opt/docker-machine
-  file: src='{{dockermachine_install_dir}}' dest='/opt/docker-machine' state=link
+  file: >
+    src='{{dockermachine_install_dir}}'
+    dest='/opt/docker-machine'
+    state=link
+    owner=root
+    group=root
 
 - name: add docker-machine to the path
   copy: >
