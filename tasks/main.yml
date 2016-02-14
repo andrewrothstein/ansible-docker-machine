@@ -1,5 +1,5 @@
 ---
-- name: create /opt/docker-machine-v0.5.6
+- name: create /opt/docker-machine-vX.Y.Z
   file: >
     owner=root
     group=root

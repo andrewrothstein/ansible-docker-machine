@@ -1,7 +1,7 @@
 ---
-dockermachine_ver : 'v0.5.6'
+dockermachine_ver : 'v0.6.0'
 dockermachine_user : 'docker'
 dockermachine_project : 'machine'
-dockermachine_platform : 'linux-amd64'
+dockermachine_platform : 'Linux-x86_64'
 
   
