@@ -1,5 +1,5 @@
 ---
-dockermachine_ver : 'v0.6.0'
+dockermachine_ver : 'v0.8.0'
 dockermachine_user : 'docker'
 dockermachine_project : 'machine'
 dockermachine_platform : 'Linux-x86_64'
