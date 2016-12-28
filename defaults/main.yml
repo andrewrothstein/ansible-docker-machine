@@ -1,7 +1,7 @@
 ---
-dockermachine_ver : 'v0.8.0'
-dockermachine_user : 'docker'
-dockermachine_project : 'machine'
-dockermachine_platform : 'Linux-x86_64'
-
-  
+dockermachine_ver : 'v0.8.2'
+dockermachine_platform : Linux-x86_64
+dockermachine_platform_suffix : ''
+dockermachine_checksum : sha256:e5c3e360b46a82d4bc5ff2efe357b15040cfc58d3d962f793fee6ee1e44e9b66
+dockermachine_install_dir : /usr/local/bin
+dockermachine_mirror : https://github.com/docker/machine/releases/download

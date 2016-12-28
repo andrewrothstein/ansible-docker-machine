@@ -1,5 +1,4 @@
 ---
-dockermachine_exe : 'docker-machine-{{dockermachine_platform}}'
-dockermachine_install_dir : '/opt/docker-machine-{{dockermachine_ver}}'
+dockermachine_exe : docker-machine-{{dockermachine_ver}}
 #https://github.com/docker/machine/releases/download/v0.6.0/docker-machine-Linux-x86_64
-dockermachine_exe_url : 'https://github.com/{{dockermachine_user}}/{{dockermachine_project}}/releases/download/{{dockermachine_ver}}/{{dockermachine_exe}}'
+dockermachine_exe_url : '{{dockermachine_mirror}}/{{dockermachine_ver}}/docker-machine-{{dockermachine_platform}}{{dockermachine_platform_suffix}}'

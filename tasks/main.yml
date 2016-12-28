@@ -1,32 +1,17 @@
 ---
-- name: create /opt/docker-machine-vX.Y.Z
-  become: yes
-  become_user: root
-  file: >
-    mode=0755
-    path={{dockermachine_install_dir}}
-    state=directory
-  
 - name: download docker-machine exe
   become: yes
   become_user: root
   get_url: >
     url={{dockermachine_exe_url}}
-    dest={{dockermachine_install_dir}}/docker-machine
+    dest={{dockermachine_install_dir}}/{{dockermachine_exe}}
     mode=0755
+    checksum={{dockermachine_checksum}}
 
-- name: link /opt/docker-machine
+- name: link docker-machine
   become: yes
   become_user: root
   file: >
-    src={{dockermachine_install_dir}}
-    dest='/opt/docker-machine'
+    src={{dockermachine_install_dir}}/{{dockermachine_exe}}
+    dest={{dockermachine_install_dir}}/docker-machine
     state=link
-
-- name: add docker-machine to the path
-  become: yes
-  become_user: root
-  copy: >
-    src=etc/profile.d/docker-machine.sh
-    dest=/etc/profile.d/docker-machine.sh
-    mode=0644

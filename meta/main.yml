@@ -9,15 +9,18 @@ galaxy_info:
   platforms:
     - name: EL
       versions:
-        - 7
+        - all
     - name: Fedora
       versions:
-        - 21
+        - all
     - name: Ubuntu
       versions:
-        - trusty
+        - all
+    - name: Alpine
+      versions: all
 
-  categories:
-    - development
+  galaxy_tags:
+    - docker
+    - docker-machine
 
 dependencies: []
