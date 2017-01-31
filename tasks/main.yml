@@ -12,6 +12,6 @@
   become: yes
   become_user: root
   file:
-    src: '{{dockermachine_install_dir}}/{{dockermachine_exe}}'
+    src: '{{dockermachine_install_dir}}/{{dockermachine_target}}'
     dest: '{{dockermachine_install_dir}}/docker-machine'
     state: link
