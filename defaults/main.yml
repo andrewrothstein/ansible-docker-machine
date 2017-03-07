@@ -1,8 +1,8 @@
 ---
-dockermachine_ver : 'v0.9.0'
+dockermachine_ver : 'v0.10.0'
 dockermachine_checksums :
-  Linux-x86_64: sha256:ce8d78da67bed7ac1601a5d77714ebcc097f9a607aef2adbc9df61a272f66dee
-  Linux-armhf: sha256:a01a561be76fdd1b5d579113994ad7035d30249912623494772d4c3a33cff57a
-  Darwin-x86_64: sha256:249aff39a94bff16cd41dccd33e3b21c37f9ec8e0d6d5ef1b416160efd8d66f
+  Linux-x86_64: sha256:74f77385f6744fb83ec922b206f39b4c33ac42e63ed09d4d63652741d8a94df9
+  Linux-armhf: sha256:89c287d1720d6f7390d98ba0086b78c215bce132e7e0b1fa2d619fadcc9910a2
+  Darwin-x86_64: sha256:2d44e571e547a7214cf322ccaa7fd3b12b73e80cedf08d39b89eda6bf33bb955
 dockermachine_install_dir : /usr/local/bin
 dockermachine_mirror : https://github.com/docker/machine/releases/download
