@@ -1,3 +1,4 @@
+[![CircleCI](https://circleci.com/gh/andrewrothstein/ansible-docker-machine.svg?style=svg)](https://circleci.com/gh/andrewrothstein/ansible-docker-machine)
 andrewrothstein.docker-machine
 ===========================
 
