@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/gh/andrewrothstein/ansible-docker-machine.svg?style=svg)](https://circleci.com/gh/andrewrothstein/ansible-docker-machine)
+[![Build Status](https://travis-ci.org/andrewrothstein/ansible-docker-machine.svg?branch=master)](https://travis-ci.org/andrewrothstein/ansible-docker-machine)
 andrewrothstein.docker-machine
 ===========================
 
