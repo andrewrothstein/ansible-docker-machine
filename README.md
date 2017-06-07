@@ -1,8 +1,8 @@
-[![Build Status](https://travis-ci.org/andrewrothstein/ansible-docker-machine.svg?branch=master)](https://travis-ci.org/andrewrothstein/ansible-docker-machine)
 andrewrothstein.docker-machine
 ===========================
+[![Build Status](https://travis-ci.org/andrewrothstein/ansible-docker-machine.svg?branch=master)](https://travis-ci.org/andrewrothstein/ansible-docker-machine)
 
-A role for installing [docker-machine](https://github.com/docker/machine)
+Installs [docker-machine](https://github.com/docker/machine)
 
 Requirements
 ------------

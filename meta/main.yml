@@ -18,7 +18,9 @@ galaxy_info:
         - all
     - name: Alpine
       versions: all
-
+    - name: Debian
+      versions:
+        - jessie
   galaxy_tags:
     - docker
     - docker-machine

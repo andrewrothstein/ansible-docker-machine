@@ -1,8 +1,14 @@
 ---
-dockermachine_ver : 'v0.11.0'
+dockermachine_ver : 'v0.12.0'
+
+# https://github.com/docker/machine/releases/download/v0.12.0/sha256sum.txt
 dockermachine_checksums :
-  Linux-x86_64: sha256:71de3ce0c2233f9fbc2ca7e359ff29711e3fb078d9c7b808a771a2bcaa24f729
-  Linux-armhf: sha256:b433390b30aade887fd350b4c3d965c47ae081547625b2b0d9ea1c64f69eacaf
-  Darwin-x86_64: sha256:6237c781100adde442419742bae9b0d6816939f95f049690cfef0a34b6f81f97
+  Darwin-x86_64: sha256:ffe0fce963885fc8e5036b7d0cd027d05a285eb443d46134503b77bfe632ceec
+  Linux-aarch64: sha256:a9ee537bee11e0b0bb70cb4deef04fd834b6bd2b47ff45e33cd72e24593782e0
+  Linux-armhf: sha256:d6818d6d327c9b8ad428ac963686ae88d9fd09e36c65de8dc55c86d2cabf168e
+  Linux-x86_64: sha256:c4568bb0b0f5a48b57d9d034a441f445004c81b69c2f571aefca46862400eaaf
+  Windows-i386: sha256:253e63571ce613d4ab835c4199ffffaa1daf1dbc8bcf284995bc60de1fa67d8c
+  Windows-x86_64: sha256:ba2eeee57aa1774e9841ebcb918212ea559e08587e13b152f3f2ca7d9c6f7a25
+
 dockermachine_install_dir : /usr/local/bin
 dockermachine_mirror : https://github.com/docker/machine/releases/download
