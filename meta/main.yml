@@ -21,6 +21,10 @@ galaxy_info:
     - name: Debian
       versions:
         - jessie
+        - stretch
+    - name: Archlinux
+      versions:
+        - all
   galaxy_tags:
     - docker
     - docker-machine
