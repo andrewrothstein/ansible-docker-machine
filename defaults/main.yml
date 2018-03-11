@@ -1,14 +1,23 @@
 ---
-dockermachine_ver : 'v0.13.0'
+dockermachine_ver : 'v0.14.0'
 
-# https://github.com/docker/machine/releases/download/v0.13.0/sha256sum.txt
 dockermachine_checksums :
-  Darwin-x86_64: sha256:e5fc83c51c09eb1cf44e16de04be531f2a9f9a7f235e5613d566f99e9b73ee06
-  Linux-aarch64: sha256:8b57bd3ef0f5d7571139d7dc891b75fddcc2627184f92e93279833cf46386fbd
-  Linux-armhf: sha256:572e797268f5582c5e1dc95e87bbbafe0352a7c17dfa6f9a8a07a7e7d1061abe
-  Linux-x86_64: sha256:8f5310eb9e04e71b44c80c0ccebd8a85be56266b4170b4a6ac6223f7b5640df9
-  Windows-i386.exe: sha256:564c57e251ffa61fb6d03157f67a8c3cc10ecaaf592e589aca9307b6357561fc
-  Windows-x86_64.exe: sha256:ec304126dac48873e5f52c0df0d8333be4bd653a37ba1cf78793da0e858db9e3
+  # https://github.com/docker/machine/releases/download/v0.13.0/sha256sum.txt
+  v0.13.0:
+    Darwin-x86_64: sha256:e5fc83c51c09eb1cf44e16de04be531f2a9f9a7f235e5613d566f99e9b73ee06
+    Linux-aarch64: sha256:8b57bd3ef0f5d7571139d7dc891b75fddcc2627184f92e93279833cf46386fbd
+    Linux-armhf: sha256:572e797268f5582c5e1dc95e87bbbafe0352a7c17dfa6f9a8a07a7e7d1061abe
+    Linux-x86_64: sha256:8f5310eb9e04e71b44c80c0ccebd8a85be56266b4170b4a6ac6223f7b5640df9
+    Windows-i386.exe: sha256:564c57e251ffa61fb6d03157f67a8c3cc10ecaaf592e589aca9307b6357561fc
+    Windows-x86_64.exe: sha256:ec304126dac48873e5f52c0df0d8333be4bd653a37ba1cf78793da0e858db9e3
+  # https://github.com/docker/machine/releases/download/v0.14.0/sha256sum.txt
+  v0.14.0:
+    Darwin-x86_64: sha256:5e3b34c038cf42e9e4c6bcf841ef6fe19827ebb5a90687a8c157235c9104b240
+    Linux-aarch64: sha256:0f94312bbb9637fe9c3616700d35c8a6562a640bdff4e46e1a3a7c9698890a76
+    Linux-armhf: sha256:cc3b4ea12eaf39cee1c604898c536ac9570f2cddab98ac204bc7844d0175b522
+    Linux-x86_64: sha256:a4c69bffb78d3cfe103b89dae61c3ea11cc2d1a91c4ff86e630c9ae88244db02
+    Windows-i386.exe: sha256:a05be607a58ea885adecdfe66bc6681e0e44a472d7225a94e35e6a75cf630cae
+    Windows-x86_64.exe: sha256:2b01f844d77df2fca9347f940b46fe6361b3d0ddb38ae22c982004d86f3c5362
 
 dockermachine_install_dir : /usr/local/bin
 dockermachine_mirror : https://github.com/docker/machine/releases/download
