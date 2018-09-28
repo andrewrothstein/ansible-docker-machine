@@ -1,7 +1,7 @@
 ---
-dockermachine_ver : v0.15.0
+dockermachine_ver: v0.15.0
 
-dockermachine_checksums :
+dockermachine_checksums:
   # https://github.com/docker/machine/releases/download/v0.13.0/sha256sum.txt
   v0.13.0:
     Darwin-x86_64: sha256:e5fc83c51c09eb1cf44e16de04be531f2a9f9a7f235e5613d566f99e9b73ee06
@@ -27,5 +27,5 @@ dockermachine_checksums :
     Windows-i386.exe: sha256:4a73899dd230b748282d70c3d19f3baa8485005a7c36f5fdec9bc9fe5d386de5
     Windows-x86_64.exe: sha256:5af3952cbd571b37f8fd74fa8269bc2d8c38c521ffb0202cb4a71a315374f0df
 
-dockermachine_install_dir : /usr/local/bin
-dockermachine_mirror : https://github.com/docker/machine/releases/download
+dockermachine_install_dir: /usr/local/bin
+dockermachine_mirror: https://github.com/docker/machine/releases/download

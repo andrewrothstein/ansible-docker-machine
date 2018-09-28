@@ -1,6 +1,6 @@
 ---
-dockermachine_target : docker-machine-{{dockermachine_ver}}
+dockermachine_target: docker-machine-{{dockermachine_ver}}
 dockermachine_platform: '{{ansible_system}}-{{ansible_architecture}}'
-#https://github.com/docker/machine/releases/download/v0.12.2/docker-machine-Linux-x86_64
-dockermachine_url : '{{dockermachine_mirror}}/{{dockermachine_ver}}/docker-machine-{{dockermachine_platform}}'
+#https://github.com/docker/machine/releases/download/v0.15.0/docker-machine-Linux-x86_64
+dockermachine_url: '{{dockermachine_mirror}}/{{dockermachine_ver}}/docker-machine-{{dockermachine_platform}}'
 dockermachine_checksum: '{{dockermachine_checksums[dockermachine_ver][dockermachine_platform]}}'
