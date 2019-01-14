@@ -1,3 +1,5 @@
 **~
 Dockerfile.*
 *.retry
+requirements.yml
+**.swp

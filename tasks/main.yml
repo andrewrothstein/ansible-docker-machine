@@ -3,15 +3,15 @@
   become: yes
   become_user: root
   get_url:
-    url: '{{dockermachine_url}}'
-    dest: '{{dockermachine_install_dir}}/{{dockermachine_target}}'
+    url: '{{ dockermachine_url }}'
+    dest: '{{ dockermachine_install_dir }}/{{ dockermachine_target }}'
     mode: '0755'
-    checksum: '{{dockermachine_checksum}}'
+    checksum: '{{ dockermachine_checksum }}'
 
 - name: link docker-machine
   become: yes
   become_user: root
   file:
-    src: '{{dockermachine_install_dir}}/{{dockermachine_target}}'
-    dest: '{{dockermachine_install_dir}}/docker-machine'
+    src: '{{ dockermachine_install_dir }}/{{ dockermachine_target }}'
+    dest: '{{ dockermachine_install_dir }}/docker-machine'
     state: link

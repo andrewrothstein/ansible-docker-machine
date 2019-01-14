@@ -27,6 +27,6 @@ galaxy_info:
         - all
   galaxy_tags:
     - docker
-    - docker-machine
+    - machine
 
 dependencies: []
